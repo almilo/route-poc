@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Route POC</title>
+        <link href="../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body ng-app="app" class="container">
+        <ul nav-bar></ul>
+        <div error></div>
+
+        <div ng-view></div>
+        <script src="../../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../../bower_components/angular/angular.js"></script>
+        <script src="../../bower_components/angular-route/angular-route.js"></script>
+        <script src="app.js"></script>
+        <script src="nav-bar-directive.js"></script>
+        <script src="dummy-controller.js"></script>
+        <script src="user-service.js"></script>
+        <script src="route-error-handler-service.js"></script>
+        <script src="error-directive.js"></script>
+        <script src="error-service.js"></script>
+        <script src="server-error-http-interceptor-service.js"></script>
+    </body>
+</html>
